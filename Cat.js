@@ -5,4 +5,7 @@ function cat(name){
 function eat(mouse){
     this.stomach.push(mouse);
 }
+function drink(water){
+    this.stomach.push(water);
+}
 module.export= cat;
